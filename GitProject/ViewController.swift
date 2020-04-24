@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import RxDataSources
 
 class ViewController: UIViewController {
-
+	var bag = DisposeBag()
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
+		
+		Observable.just("🤡 Git는 필수야!")
+			.subscribe(onNext: {
+			print("[구독] \($0)")
+		}).disposed(by: bag)
+		
 	}
 
 
