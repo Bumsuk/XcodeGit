@@ -21,11 +21,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1H6-J3-hxV">
+                                <rect key="frame" x="184" y="148" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="oM2-fI-Um4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="MdK-xg-kzH"/>
+                            <constraint firstItem="1H6-J3-hxV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PCX-Xt-fqv"/>
                             <constraint firstItem="oM2-fI-Um4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="XVy-Qd-Sr6"/>
+                            <constraint firstItem="1H6-J3-hxV" firstAttribute="top" secondItem="oM2-fI-Um4" secondAttribute="bottom" constant="46" id="Z2w-sv-0u7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
