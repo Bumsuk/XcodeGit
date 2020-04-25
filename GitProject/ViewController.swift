@@ -28,5 +28,7 @@ class ViewController: UIViewController {
 
 	// MARK: - 인스턴스 메서드
 
+	
+	// MARK: - 새로 추가할 2번째 VC 관련 코드
 }
 
