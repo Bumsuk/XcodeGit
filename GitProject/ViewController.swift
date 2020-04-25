@@ -23,8 +23,10 @@ class ViewController: UIViewController {
 			print("[구독] \($0)")
 		}).disposed(by: bag)
 		
+
 	}
 
+	// MARK: - 인스턴스 메서드
 
 }
 
