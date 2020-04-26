@@ -40,5 +40,33 @@
             </objects>
             <point key="canvasLocation" x="132" y="138"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="g0E-eF-m7Q">
+            <objects>
+                <viewController id="ysN-DU-sRf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZfY-jX-HDX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="추가할 VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRM-zE-rdr">
+                                <rect key="frame" x="186" y="438" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gRM-zE-rdr" firstAttribute="centerY" secondItem="ZfY-jX-HDX" secondAttribute="centerY" id="VyE-eq-e2D"/>
+                            <constraint firstItem="gRM-zE-rdr" firstAttribute="centerX" secondItem="ZfY-jX-HDX" secondAttribute="centerX" id="iZc-Xq-CXa"/>
+                            <constraint firstItem="gRM-zE-rdr" firstAttribute="top" secondItem="1bJ-oZ-pe2" secondAttribute="top" constant="394" id="mwz-E5-uLT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1bJ-oZ-pe2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GgA-fN-1bF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="138"/>
+        </scene>
     </scenes>
 </document>
